@@ -13,13 +13,8 @@
       "body": {}
     },
     "ignoreTestFiles": {
-      "type": [
-        "string",
-        "array"
-      ],
-      "items": {
-        "type": "string"
-      },
+      "type": ["string", "array"],
+      "items": {"type": "string"},
       "description": "A String or Array of glob patterns used to ignore test files that would otherwise be shown in your list of tests. Cypress uses minimatch with the options: {dot: true, matchBase: true}. We suggest using http://globtester.com to test what files would match."
     },
     "numTestsKeptInMemory": {
@@ -78,10 +73,7 @@
       "description": "Path to folder where application files will attempt to be served from"
     },
     "fixturesFolder": {
-      "type": [
-        "string",
-        "boolean"
-      ],
+      "type": ["string", "boolean"],
       "default": "cypress/fixtures",
       "description": "Path to folder containing fixture files (Pass false to disable)"
     },
@@ -91,10 +83,7 @@
       "description": "Path to folder containing integration test files"
     },
     "pluginsFile": {
-      "type": [
-        "string",
-        "boolean"
-      ],
+      "type": ["string", "boolean"],
       "default": "cypress/plugins/index.js",
       "description": "Path to plugins file. (Pass false to disable)"
     },
@@ -104,10 +93,7 @@
       "description": "Path to folder where screenshots will be saved from cy.screenshot() command or after a headless or CI run’s test failure"
     },
     "supportFile": {
-      "type": [
-        "string",
-        "boolean"
-      ],
+      "type": ["string", "boolean"],
       "default": "cypress/support/index.js",
       "description": "Path to file to load before test files load. This file is compiled and bundled. (Pass false to disable)"
     },
@@ -122,10 +108,7 @@
       "description": "Whether Cypress will trash assets within the screenshotsFolder and videosFolder before headless test runs."
     },
     "videoCompression": {
-      "type": [
-        "number",
-        "boolean"
-      ],
+      "type": ["number", "boolean"],
       "default": 32,
       "description": "The quality setting for the video compression, in Constant Rate Factor (CRF). The value can be false to disable compression or a value between 0 and 51, where a lower value results in better quality (at the expense of a higher file size)."
     },
@@ -150,13 +133,8 @@
       "description": "Enables you to override the default user agent the browser sends in all request headers. User agent values are typically used by servers to help identify the operating system, browser, and browser version. See User-Agent MDN Documentation for example user agent values here: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent"
     },
     "blacklistHosts": {
-      "type": [
-        "string",
-        "array"
-      ],
-      "items": {
-        "type": "string"
-      },
+      "type": ["string", "array"],
+      "items": {"type": "string"},
       "default": null,
       "description": "A String or Array of hosts that you wish to block traffic for. Please read the notes for examples on using this https://on.cypress.io/configuration#blacklistHosts"
     },

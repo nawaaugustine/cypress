@@ -5,6 +5,7 @@ module.exports = {
     '--use-cs2',
     '--loose',
   ],
+
   jscodeshiftScripts: [
     path.resolve('node_modules', 'js-codemod', 'transforms', 'arrow-function.js'),
     path.resolve('node_modules', 'js-codemod', 'transforms', 'arrow-function-arguments.js'),
