@@ -1,69 +1,48 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint"
-  ],
-  "extends": [
-    "plugin:cypress-dev/general"
-  ],
+  "plugins": ["@typescript-eslint", "@cypress/json"],
+  "extends": ["plugin:cypress-dev/general"],
   "rules": {
     "brace-style": [
       "error",
       "1tbs",
-      {
-        "allowSingleLine": false
-      }
+      {"allowSingleLine": false}
     ],
     "no-multiple-empty-lines": [
       "error",
-      {
-        "max": 1
-      }
+      {"max": 1}
     ],
-    "function-paren-newline": [
-      "error",
-      "consistent"
-    ]
+    "function-paren-newline": ["error", "consistent"]
   },
-  "env": {
-    "es6": true,
-    "node": true
-  },
+  "env": {"es6": true, "node": true},
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
-    "ecmaFeatures": {
-      "legacyDecorators": true
-    }
+    "ecmaFeatures": {"legacyDecorators": true}
   },
   "overrides": [
     {
-      "files": [
-        "*.ts"
-      ],
+      "files": ["*.ts"],
       "rules": {
         "no-unused-vars": "off",
         "@typescript-eslint/no-unused-vars": "error",
         "no-useless-constructor": "off",
-        "@typescript-eslint/no-useless-constructor": [
-          "error"
-        ],
+        "@typescript-eslint/no-useless-constructor": ["error"],
         "semi": "off",
-        "@typescript-eslint/semi": [
-          "error",
-          "never"
-        ],
+        "@typescript-eslint/semi": ["error", "never"],
         "@typescript-eslint/member-delimiter-style": [
           "error",
           {
-            "multiline": {
-              "delimiter": "none"
-            },
-            "singleline": {
-              "delimiter": "comma"
-            }
+            "multiline": {"delimiter": "none"},
+            "singleline": {"delimiter": "comma"}
           }
         ]
+      }
+    },
+    {
+      "files": ["*.json"],
+      "rules": {
+        "array-bracket-newline": ["error", "always"]
       }
     }
   ]
