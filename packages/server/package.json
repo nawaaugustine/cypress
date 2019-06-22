@@ -2,7 +2,11 @@
   "name": "@packages/server",
   "version": "0.0.0",
   "private": true,
-  "files": ["config", "timers", "lib"],
+  "files": [
+    "config",
+    "timers",
+    "lib"
+  ],
   "main": "index.js",
   "scripts": {
     "build-js": "tsc",

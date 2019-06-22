@@ -2,7 +2,12 @@
   "name": "@packages/extension",
   "version": "0.0.0",
   "private": true,
-  "files": ["app", "dist", "lib", "theme"],
+  "files": [
+    "app",
+    "dist",
+    "lib",
+    "theme"
+  ],
   "main": "index.js",
   "scripts": {
     "prebuild": "npm run check-deps-pre",
@@ -21,7 +26,10 @@
     "prewatch": "npm run check-deps-pre",
     "watch": "gulp watch"
   },
-  "dependencies": {"bluebird": "3.5.3", "lodash": "4.17.11"},
+  "dependencies": {
+    "bluebird": "3.5.3",
+    "lodash": "4.17.11"
+  },
   "devDependencies": {
     "@cypress/icons": "0.7.0",
     "bin-up": "1.2.0",

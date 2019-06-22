@@ -2,7 +2,9 @@
   "name": "@packages/network",
   "version": "0.0.0",
   "private": true,
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "main": "index.js",
   "types": "./lib/index.ts",
   "scripts": {

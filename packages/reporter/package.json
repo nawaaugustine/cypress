@@ -2,7 +2,9 @@
   "name": "@packages/reporter",
   "version": "0.0.0",
   "private": true,
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "lib/reporter.js",
   "browser": "src/main",
   "scripts": {

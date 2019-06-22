@@ -2,7 +2,10 @@
   "name": "@packages/desktop-gui",
   "version": "0.0.0",
   "private": true,
-  "files": ["dist", "lib"],
+  "files": [
+    "dist",
+    "lib"
+  ],
   "main": "lib/gui.js",
   "scripts": {
     "prebuild": "npm run check-deps-pre && rebuild-node-sass",

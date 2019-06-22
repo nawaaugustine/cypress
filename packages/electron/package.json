@@ -2,9 +2,14 @@
   "name": "@packages/electron",
   "version": "0.0.0",
   "private": true,
-  "files": ["dist", "lib"],
+  "files": [
+    "dist",
+    "lib"
+  ],
   "main": "index.js",
-  "bin": {"cypress-electron": "./bin/cypress-electron"},
+  "bin": {
+    "cypress-electron": "./bin/cypress-electron"
+  },
   "scripts": {
     "prebuild": "npm run check-deps-pre",
     "build": "node ./bin/cypress-electron --install",
@@ -26,6 +31,9 @@
     "lodash": "4.17.11",
     "minimist": "1.2.0"
   },
-  "devDependencies": {"chai": "3.5.0", "mocha": "3.5.3"},
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.5.3"
+  },
   "electronVersion": "2.0.18"
 }

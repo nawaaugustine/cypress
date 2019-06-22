@@ -2,7 +2,10 @@
   "name": "@packages/socket",
   "version": "0.0.0",
   "private": true,
-  "files": ["lib", "patches"],
+  "files": [
+    "lib",
+    "patches"
+  ],
   "main": "index.js",
   "browser": "./lib/browser.js",
   "scripts": {
