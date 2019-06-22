@@ -205,7 +205,7 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/
-      - run: npm run lint
+      - run: npm run lint-verify
 
   unit-tests:
     <<: *defaults
