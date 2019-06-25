@@ -1,11 +1,9 @@
 {
-  "parser": "@typescript-eslint/parser",
   "plugins": [
-    "@typescript-eslint",
-    "@cypress/json"
+    "@cypress/dev"
   ],
   "extends": [
-    "plugin:cypress-dev/general"
+    "plugin:@cypress/dev/general"
   ],
   "rules": {
     "brace-style": [
