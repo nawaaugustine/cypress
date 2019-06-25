@@ -25,9 +25,6 @@ const $utils = require('../cypress/utils')
 
 const fixedOrStickyRe = /(fixed|sticky)/
 
-const foo = () =>
-  focusable[0]
-
 const focusable = [
   'a[href]',
   'area[href]',
