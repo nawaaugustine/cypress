@@ -16,8 +16,8 @@
     "check-deps-pre": "npm run check-deps -- --prescript",
     "clean": "zunder clean",
     "clean-deps": "rm -rf node_modules",
-    "cypress:open": "node ../../scripts/cypress open --project .",
-    "cypress:run": "node ../../scripts/cypress run --project .",
+    "cypress:open": "TZ=America/New_York node ../../scripts/cypress open --project .",
+    "cypress:run": "TZ=America/New_York node ../../scripts/cypress run --project .",
     "postinstall": "echo '@packages/desktop-gui needs: npm run build'",
     "prewatch": "npm run check-deps-pre",
     "watch": "node ./scripts/watch.js"

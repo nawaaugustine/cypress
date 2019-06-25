@@ -79,7 +79,7 @@
     "express-handlebars": "3.0.2",
     "find-process": "1.4.1",
     "fluent-ffmpeg": "2.1.2",
-    "fs-extra": "4.0.3",
+    "fs-extra": "5.0.0",
     "getos": "3.1.1",
     "glob": "7.1.3",
     "graceful-fs": "4.1.15",
@@ -140,7 +140,7 @@
     "url-parse": "1.4.7",
     "uuid": "3.3.2",
     "widest-line": "3.1.0",
-    "winston": "0.9.0"
+    "winston": "2.4.4"
   },
   "devDependencies": {
     "@babel/core": "7.4.4",
