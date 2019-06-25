@@ -264,7 +264,7 @@ DEBUG=cypress:launcher
 ### Coding Style
 
 We use [eslint](https://eslint.org/) to lint all JavaScript code and follow rules specified in
-[eslint-plugin-cypress-dev](https://github.com/cypress-io/eslint-plugin-cypress-dev) plugin.
+[@cypress/eslint-plugin-dev](https://github.com/cypress-io/cypress-eslint-plugin-dev) plugin.
 
 When you edit files, you can quickly fix all changed files before committing using
 
